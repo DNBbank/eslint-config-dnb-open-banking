@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.2"></a>
+# [1.0.0-rc.2](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2018-10-12)
+
+
+### Bug Fixes
+
+* Add parsers as devdependencies ([581a97f](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/581a97f))
+
+
+
 <a name="1.0.0-rc.1"></a>
 # 1.0.0-rc.1 (2018-10-12)
 
