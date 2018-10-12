@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-dnb-open-banking",
+  "version": "1.0.0-rc.0",
+  "description": "Common eslint configuration for the DNB Open Banking Team",
+  "main": "./configs",
+  "repository": "https://github.com/DNBbank/eslint-config-dnb-open-banking",
+  "author": "Rolf Erik Lekang",
+  "bin": {
+    "eslint-config-dnb-open-banking": "./cli.js"
+  },
+  "files": [
+    "configs",
+    "readme.md",
+    "cli.js"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "setup-eslint-config": "^1.0.0-rc.3"
+  }
+}
