@@ -8,6 +8,9 @@
   "bin": {
     "eslint-config-dnb-open-banking": "./cli.js"
   },
+  "scripts": {
+    "release": "standard-version -i changelog.md"
+  },
   "files": [
     "configs",
     "readme.md",
@@ -19,7 +22,8 @@
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "standard-version": "^4.4.0"
   },
   "dependencies": {
     "setup-eslint-config": "^1.0.0-rc.3"
