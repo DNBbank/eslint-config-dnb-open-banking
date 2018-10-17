@@ -6,11 +6,17 @@ const packageInfo = require('./package.json');
 setup({
   name: packageInfo.name,
   packageInfo,
-  prompts: [{ type: 'confirm', name: 'prettier', message: 'Use prettier?' }],
+  prompts: [
+    { type: 'confirm', name: 'prettier', message: 'Use prettier?' },
+    { type: 'confirm', name: 'jest', message: 'Use jest?' },
+  ],
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['dnb-open-banking'] };
     if (config.prettier) {
-      eslintConfig.extends.push('dnb-open-banking/prettier');
+      eslintConfig.extends.push('dnb-open-banking/config/prettier');
+    }
+    if (config.jest) {
+      eslintConfig.extends.push('dnb-open-banking/config/jest');
     }
     if (config.babel) {
       eslintConfig.parser = 'babel-eslint';
