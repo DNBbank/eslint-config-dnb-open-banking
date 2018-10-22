@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.4"></a>
+# [1.0.0-rc.4](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2018-10-22)
+
+
+### Features
+
+* Add typescript config ([1aa1c0a](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/1aa1c0a))
+
+
+
 <a name="1.0.0-rc.3"></a>
 # [1.0.0-rc.3](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2018-10-17)
 
