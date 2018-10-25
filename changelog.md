@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.5"></a>
+# [1.0.0-rc.5](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2018-10-25)
+
+
+### Bug Fixes
+
+* Temporary disable typescript/explicit-function-return-type ([6161dff](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/6161dff))
+
+
+
 <a name="1.0.0-rc.4"></a>
 # [1.0.0-rc.4](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2018-10-22)
 
