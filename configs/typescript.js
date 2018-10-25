@@ -5,6 +5,6 @@ module.exports = {
     'typescript/no-unused-vars': 2,
 
     'typescript/no-explicit-any': 1,
-    'typescript/explicit-function-return-type': [1, { allowExpressions: true }],
+    'typescript/explicit-function-return-type': [0, { allowExpressions: true }],
   },
 };
