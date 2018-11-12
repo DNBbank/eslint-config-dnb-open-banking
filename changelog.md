@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.5...v1.0.0) (2018-11-12)
+
+
+### Bug Fixes
+
+* Add typescript parser to typescript config ([860d0b9](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/860d0b9))
+* Use typescript version of no-use-before-define in ts ([1b8793d](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/1b8793d))
+
+
+### Features
+
+* Add vue config ([f824522](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/f824522))
+
+
+
 <a name="1.0.0-rc.5"></a>
 # [1.0.0-rc.5](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2018-10-25)
 
