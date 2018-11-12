@@ -28,6 +28,10 @@ setup({
     if (config.flowtype) {
       eslintConfig.extends.push('dnb-open-banking/configs/flowtype');
     }
+    if (config.vue) {
+      eslintConfig.parser = 'vue-eslint-parser';
+      eslintConfig.extends.push('dnb-open-banking/configs/vue');
+    }
     return eslintConfig;
   },
   createDependencyList: (config) => {
@@ -43,6 +47,9 @@ setup({
     if (config.typescript) {
       dependencies.push('typescript-eslint-parser');
       dependencies.push('eslint-plugin-typescript');
+    }
+    if (config.vue) {
+      dependencies.push('eslint-plugin-vue');
     }
     return dependencies;
   },
