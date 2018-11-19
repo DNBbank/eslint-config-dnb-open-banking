@@ -2,7 +2,7 @@ module.exports = {
   parser: 'typescript-eslint-parser',
   plugins: ['typescript'],
   rules: {
-    'no-unused-vars': 0,
+    'no-unused-vars': 2,
     'typescript/no-unused-vars': 2,
 
     'no-use-before-define': 0,
