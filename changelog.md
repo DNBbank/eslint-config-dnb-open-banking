@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0...v1.0.1) (2018-11-19)
+
+
+### Bug Fixes
+
+* Activate no-unused-vars ([36eeb9d](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/36eeb9d))
+* Upgrade prettier ([b290b65](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/b290b65))
+* Upgrade setup-eslint-config ([3a2b2d8](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/3a2b2d8))
+* Upgrade typescript plugin ([caebb93](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/caebb93))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.0.0-rc.5...v1.0.0) (2018-11-12)
 
