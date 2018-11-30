@@ -9,6 +9,7 @@ setup({
   prompts: [
     { type: 'confirm', name: 'prettier', message: 'Use prettier?' },
     { type: 'confirm', name: 'jest', message: 'Use jest?' },
+    { type: 'confirm', name: 'react', message: 'Use react?' },
   ],
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['dnb-open-banking'] };
@@ -32,6 +33,9 @@ setup({
       eslintConfig.parser = 'vue-eslint-parser';
       eslintConfig.extends.push('dnb-open-banking/configs/vue');
     }
+    if (config.react) {
+      eslintConfig.extends.push('dnb-open-banking/configs/react');
+    }
     return eslintConfig;
   },
   createDependencyList: (config) => {
@@ -50,6 +54,9 @@ setup({
     }
     if (config.vue) {
       dependencies.push('eslint-plugin-vue');
+    }
+    if (config.react) {
+      dependencies.push('eslint-plugin-react');
     }
     return dependencies;
   },
