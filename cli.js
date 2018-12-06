@@ -11,7 +11,6 @@ setup({
     { type: 'confirm', name: 'jest', message: 'Use jest?' },
     { type: 'confirm', name: 'react', message: 'Use react?' },
     { type: 'confirm', name: 'vue', message: 'Use vue?' },
-
   ],
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['dnb-open-banking'] };
