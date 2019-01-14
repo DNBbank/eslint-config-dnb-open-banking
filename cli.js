@@ -40,7 +40,11 @@ setup({
     return eslintConfig;
   },
   createDependencyList: (config) => {
-    const dependencies = ['eslint', 'eslint-plugin-import'];
+    const dependencies = [
+      'eslint',
+      'eslint-plugin-import',
+      'eslint-plugin-eslint-comments',
+    ];
     if (config.prettier) {
       dependencies.push('eslint-config-prettier');
       dependencies.push('eslint-plugin-prettier');

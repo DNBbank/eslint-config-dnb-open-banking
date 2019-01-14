@@ -3,8 +3,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'plugin:eslint-comments/recommended',
   ],
-  plugins: ['import'],
+  plugins: ['import', 'eslint-comments'],
   parserOptions: { ecmaVersion: 2018 },
   globals: {
     Promise: false,
@@ -20,5 +21,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+
+    'eslint-comments/disable-enable-pair': [2, { allowWholeFile: true }],
   },
 };
