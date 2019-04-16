@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0-4](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-3...v2.0.0-4) (2019-04-16)
+
+
+### Bug Fixes
+
+* Disable @typescript-eslint/prefer-interface ([8b615a9](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/8b615a9))
+* Update typescript parser in install script ([046a333](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/046a333))
+
+
+
 # [2.0.0-3](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-2...v2.0.0-3) (2019-04-16)
 
 
