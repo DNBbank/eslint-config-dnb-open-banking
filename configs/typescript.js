@@ -25,5 +25,6 @@ module.exports = {
       { allowExpressions: true },
     ],
     '@typescript-eslint/camelcase': 0,
+    '@typescript-eslint/explicit-member-accessibility': 0,
   },
 };
