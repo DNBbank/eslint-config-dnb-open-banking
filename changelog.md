@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0-0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.3.1...v2.0.0-0) (2019-04-16)
+
+
+### Bug Fixes
+
+* Upgrade import plugin ([bfe5933](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/bfe5933))
+* Upgrade vue plugin ([cc5d787](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/cc5d787))
+
+
+### Features
+
+* Add unicorn and promise rules ([c0dd559](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/c0dd559))
+* Change to the new eslint setup for typescript ([d9a7815](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/d9a7815))
+
+
+
 ## [1.3.1](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v1.3.0...v1.3.1) (2019-03-22)
 
 
