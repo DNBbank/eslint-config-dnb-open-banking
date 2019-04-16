@@ -1,11 +1,15 @@
+/* eslint-disable unicorn/prevent-abbreviations */
+
 module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
   ],
-  plugins: ['import', 'eslint-comments'],
+  plugins: ['import', 'eslint-comments', 'unicorn'],
   parserOptions: { ecmaVersion: 2018 },
   globals: {
     Promise: false,

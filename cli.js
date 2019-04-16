@@ -47,6 +47,8 @@ setup({
       'eslint',
       'eslint-plugin-import',
       'eslint-plugin-eslint-comments',
+      'eslint-plugin-unicorn',
+      'eslint-plugin-promise',
     ];
     if (config.prettier) {
       dependencies.push('eslint-config-prettier');
