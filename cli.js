@@ -14,9 +14,6 @@ setup({
   ],
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['dnb-open-banking'] };
-    if (config.prettier) {
-      eslintConfig.extends.push('dnb-open-banking/configs/prettier');
-    }
     if (config.babel) {
       eslintConfig.parser = 'babel-eslint';
     }
@@ -37,6 +34,12 @@ setup({
     if (config.react) {
       eslintConfig.extends.push('dnb-open-banking/configs/react');
     }
+    if (config.prettier) {
+      eslintConfig.extends.push('dnb-open-banking/configs/prettier');
+    }
+    if (config.typescript && config.prettier) {
+      eslintConfig.extends.push('prettier/@typescript-eslint');
+    }
     return eslintConfig;
   },
   createDependencyList: (config) => {
@@ -54,8 +57,8 @@ setup({
       dependencies.push('babel-eslint');
     }
     if (config.typescript) {
-      dependencies.push('typescript-eslint-parser');
-      dependencies.push('eslint-plugin-typescript');
+      dependencies.push('@typescript-eslint/parser');
+      dependencies.push('@typescript-eslint/eslint-plugin');
     }
     if (config.vue) {
       dependencies.push('eslint-plugin-vue');
