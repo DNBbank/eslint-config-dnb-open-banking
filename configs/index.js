@@ -27,5 +27,7 @@ module.exports = {
     ],
 
     'eslint-comments/disable-enable-pair': [2, { allowWholeFile: true }],
+
+    'unicorn/filename-case': 0,
   },
 };
