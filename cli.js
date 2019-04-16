@@ -18,7 +18,7 @@ setup({
       eslintConfig.parser = 'babel-eslint';
     }
     if (config.typescript) {
-      eslintConfig.parser = 'typescript-eslint-parser';
+      eslintConfig.parser = '@typescript-eslint/parser';
       eslintConfig.extends.push('dnb-open-banking/configs/typescript');
     }
     if (config.jest) {
