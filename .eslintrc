@@ -1,7 +1,6 @@
 ---
 extends:
   - ./configs/index.js
-  - ./configs/prettier.js
 env:
   node: true
 parserOptions:

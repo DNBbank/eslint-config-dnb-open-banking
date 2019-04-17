@@ -7,7 +7,6 @@ setup({
   name: packageInfo.name,
   packageInfo,
   prompts: [
-    { type: 'confirm', name: 'prettier', message: 'Use prettier?' },
     { type: 'confirm', name: 'jest', message: 'Use jest?' },
     { type: 'confirm', name: 'react', message: 'Use react?' },
     { type: 'confirm', name: 'vue', message: 'Use vue?' },
@@ -34,12 +33,6 @@ setup({
     if (config.react) {
       eslintConfig.extends.push('dnb-open-banking/configs/react');
     }
-    if (config.prettier) {
-      eslintConfig.extends.push('dnb-open-banking/configs/prettier');
-    }
-    if (config.typescript && config.prettier) {
-      eslintConfig.extends.push('prettier/@typescript-eslint');
-    }
     return eslintConfig;
   },
   createDependencyList: (config) => {
@@ -49,12 +42,10 @@ setup({
       'eslint-plugin-eslint-comments',
       'eslint-plugin-unicorn',
       'eslint-plugin-promise',
+      'eslint-config-prettier',
+      'eslint-plugin-prettier',
+      'prettier',
     ];
-    if (config.prettier) {
-      dependencies.push('eslint-config-prettier');
-      dependencies.push('eslint-plugin-prettier');
-      dependencies.push('prettier');
-    }
     if (config.babel) {
       dependencies.push('babel-eslint');
     }

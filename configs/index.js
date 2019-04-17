@@ -8,13 +8,18 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:unicorn/recommended',
     'plugin:promise/recommended',
+    'prettier',
   ],
-  plugins: ['import', 'eslint-comments', 'unicorn'],
+  plugins: ['import', 'eslint-comments', 'unicorn', 'prettier'],
   parserOptions: { ecmaVersion: 2018 },
   globals: {
     Promise: false,
   },
   rules: {
+    'prettier/prettier': [
+      2,
+      { singleQuote: true, trailingComma: 'all', arrowParens: 'always' },
+    ],
     'no-unused-vars': [
       2,
       {
