@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0-6](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-5...v2.0.0-6) (2019-04-17)
+
+
+### Bug Fixes
+
+* Add some more whitelisted words ([cded561](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/cded561))
+
+
+
 # [2.0.0-5](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-4...v2.0.0-5) (2019-04-17)
 
 
