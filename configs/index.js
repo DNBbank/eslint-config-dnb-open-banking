@@ -34,7 +34,10 @@ module.exports = {
       2,
       {
         whitelist: {
+          prop: true,
           props: true,
+          attrs: true,
+          msg: true,
           inheritAttrs: true,
           propsData: true,
         },
