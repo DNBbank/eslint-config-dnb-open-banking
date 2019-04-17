@@ -5,3 +5,5 @@ env:
   node: true
 parserOptions:
   sourceType: module
+rules:
+  unicorn/prevent-abbreviations: 0

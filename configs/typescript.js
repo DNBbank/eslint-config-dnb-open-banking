@@ -1,9 +1,10 @@
-/* eslint-disable unicorn/prevent-abbreviations */
-
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+  ],
   rules: {
     '@typescript-eslint/no-unused-vars': [
       2,

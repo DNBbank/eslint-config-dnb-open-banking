@@ -1,5 +1,3 @@
-/* eslint-disable unicorn/prevent-abbreviations */
-
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -32,6 +30,16 @@ module.exports = {
     ],
 
     'eslint-comments/disable-enable-pair': [2, { allowWholeFile: true }],
+    'unicorn/prevent-abbreviations': [
+      2,
+      {
+        whitelist: {
+          props: true,
+          inheritAttrs: true,
+          propsData: true,
+        },
+      },
+    ],
 
     'unicorn/filename-case': 0,
   },
