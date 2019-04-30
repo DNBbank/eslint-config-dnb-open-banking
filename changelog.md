@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0-7](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-6...v2.0.0-7) (2019-04-30)
+
+
+### Features
+
+* Add accesibility rules to vue config ([1f33e48](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/1f33e48))
+
+
+
 # [2.0.0-6](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-5...v2.0.0-6) (2019-04-17)
 
 
