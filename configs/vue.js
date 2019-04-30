@@ -1,6 +1,11 @@
 module.exports = {
-  extends: ['plugin:vue/recommended', '@vue/typescript', 'prettier/vue'],
-  plugins: ['vue'],
+  extends: [
+    'plugin:vue/recommended',
+    'plugin:vue-a11y/recommended',
+    '@vue/typescript',
+    'prettier/vue',
+  ],
+  plugins: ['vue', 'vue-a11y'],
   parserOptions: {
     parser: '@typescript-eslint/parser',
   },

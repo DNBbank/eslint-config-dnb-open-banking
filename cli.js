@@ -55,6 +55,7 @@ setup({
     }
     if (config.vue) {
       dependencies.push('eslint-plugin-vue');
+      dependencies.push('eslint-plugin-vue-a11y');
     }
     if (config.react) {
       dependencies.push('eslint-plugin-react');
