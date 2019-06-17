@@ -10,6 +10,11 @@ setup({
     { type: 'confirm', name: 'jest', message: 'Use jest?' },
     { type: 'confirm', name: 'react', message: 'Use react?' },
     { type: 'confirm', name: 'vue', message: 'Use vue?' },
+    {
+      type: 'confirm',
+      name: 'vueAccessibility',
+      message: 'Use vue accessibility plugin(this is a bit flakey)?',
+    },
   ],
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['dnb-open-banking'] };
@@ -29,6 +34,9 @@ setup({
     if (config.vue) {
       eslintConfig.parser = 'vue-eslint-parser';
       eslintConfig.extends.push('dnb-open-banking/configs/vue');
+    }
+    if (config.vueAccessibility) {
+      eslintConfig.extends.push('dnb-open-banking/configs/vue-a11y');
     }
     if (config.react) {
       eslintConfig.extends.push('dnb-open-banking/configs/react');
@@ -55,6 +63,8 @@ setup({
     }
     if (config.vue) {
       dependencies.push('eslint-plugin-vue');
+    }
+    if (config.vueAccessibility) {
       dependencies.push('eslint-plugin-vue-a11y');
     }
     if (config.react) {
