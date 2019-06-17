@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-7...v2.0.0) (2019-06-17)
+
+
+### Bug Fixes
+
+* Make vue-a11y optional ([40c4ca4](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/40c4ca4))
+
+
+
 # [2.0.0-7](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.0.0-6...v2.0.0-7) (2019-04-30)
 
 
