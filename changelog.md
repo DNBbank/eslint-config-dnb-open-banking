@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.1...v2.1.2) (2019-08-26)
+
+
+### Bug Fixes
+
+* Upgrade eslint-config-prettier ([ab066dc](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/ab066dc))
+* Upgrade import plugin for compatibility ([e0df513](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/e0df513))
+* Upgrade setup-eslint-config to get auto detection ([d1d440c](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/d1d440c))
+* Upgrade unicorn plugin ([c489743](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/c489743))
+
 ### [2.1.1](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.0...v2.1.1) (2019-08-26)
 
 
