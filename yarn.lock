@@ -919,7 +919,7 @@ eslint-plugin-eslint-comments@^3.0.1:
     escape-string-regexp "^1.0.5"
     ignore "^5.0.5"
 
-eslint-plugin-import@^2.17.2:
+eslint-plugin-import@^2.18.2:
   version "2.18.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.18.2.tgz#02f1180b90b077b33d447a17a2326ceb400aceb6"
   integrity sha512-5ohpsHAiUBRNaBWAF08izwUGlbrJoJJ+W9/TBwsGoR1MnlgfwMIKrFeSjWbt6moabiXW9xNvtFz+97KHRfI4HQ==
