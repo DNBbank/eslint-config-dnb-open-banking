@@ -6,6 +6,7 @@ const packageInfo = require('./package.json');
 setup({
   name: packageInfo.name,
   packageInfo,
+  skipDetectedPrompts: true,
   prompts: [
     { type: 'confirm', name: 'jest', message: 'Use jest?' },
     { type: 'confirm', name: 'react', message: 'Use react?' },

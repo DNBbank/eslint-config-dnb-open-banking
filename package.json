@@ -35,7 +35,7 @@
     "standard-version": "^7.0.0"
   },
   "dependencies": {
-    "setup-eslint-config": "^1.0.2"
+    "setup-eslint-config": "^1.2.0"
   },
   "resolutions": {
     "lodash": ">=4.17.12",
