@@ -29,7 +29,7 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-unicorn": "^8.0.2",
-    "eslint-plugin-vue": "^5.2.2",
+    "eslint-plugin-vue": "^5.2.3",
     "eslint-plugin-vue-a11y": "^0.0.28",
     "prettier": "^1.17.0",
     "standard-version": "^7.0.0"
