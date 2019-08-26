@@ -28,5 +28,6 @@ module.exports = {
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/prefer-interface': 0,
+    '@typescript-eslint/ban-ts-ignore': 0,
   },
 };
