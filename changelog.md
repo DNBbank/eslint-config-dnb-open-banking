@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.4](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.3...v2.1.4) (2019-09-06)
+
+
+### Bug Fixes
+
+* Add resolution on lodash.template to avoid security issue ([04d25f5](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/04d25f5))
+
 ### [2.1.3](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.2...v2.1.3) (2019-09-06)
 
 
