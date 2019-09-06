@@ -39,6 +39,7 @@
   },
   "resolutions": {
     "lodash": ">=4.17.12",
-    "lodash.defaultsdeep": ">=4.6.1"
+    "lodash.defaultsdeep": ">=4.6.1",
+    "lodash.template": ">=4.5.0"
   }
 }
