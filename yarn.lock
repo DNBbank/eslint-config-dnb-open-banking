@@ -2597,10 +2597,10 @@ set-blocking@^2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-setup-eslint-config@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/setup-eslint-config/-/setup-eslint-config-1.2.0.tgz#071b854aa10d2e297945daa16f5543aaf81dad8f"
-  integrity sha512-0wNiVRKFtzWaXSmKVt21d2Yrkc8QDiq0W/m3n1YG7stPtLaH9pcWCbdiexuLHroPkp7oXgdBYOgJA4X4smT9yQ==
+setup-eslint-config@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/setup-eslint-config/-/setup-eslint-config-1.2.1.tgz#f5dbf5aeadc07e3988c86b30a23a587894e455e3"
+  integrity sha512-EHd5cK+FzHm+8wjs904E2o3ScOWhfhPVkSwtoxmoHvbPw4//6yeabdoXlo5aS7CVLumHMurMu7z9n9AkYtojEQ==
   dependencies:
     execa "^1.0.0"
     js-yaml "^3.13.1"

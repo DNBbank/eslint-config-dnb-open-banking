@@ -12,12 +12,13 @@ setup({
     { type: 'confirm', name: 'react', message: 'Use react?' },
     { type: 'confirm', name: 'vue', message: 'Use vue?' },
     {
-      type: 'confirm',
+      type: (_, values) => (values.vue ? 'confirm' : null),
       name: 'vueAccessibility',
       message: 'Use vue accessibility plugin(this is a bit flakey)?',
     },
   ],
   createEslintConfig: (config) => {
+    console.log(config);
     const eslintConfig = { extends: ['dnb-open-banking'] };
     if (config.babel) {
       eslintConfig.parser = 'babel-eslint';
