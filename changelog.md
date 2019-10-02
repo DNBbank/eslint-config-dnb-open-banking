@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.4...v2.2.0) (2019-10-02)
+
+
+### Bug Fixes
+
+* Hide vue a11y prompt if not vue project ([c5c8394](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/c5c8394))
+
+
+### Features
+
+* Add react-hooks plugin ([0bc606d](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/0bc606d))
+
 ### [2.1.4](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.3...v2.1.4) (2019-09-06)
 
 
