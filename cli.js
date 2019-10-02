@@ -71,6 +71,7 @@ setup({
     }
     if (config.react) {
       dependencies.push('eslint-plugin-react');
+      dependencies.push('eslint-plugin-react-hooks');
     }
     return dependencies;
   },
