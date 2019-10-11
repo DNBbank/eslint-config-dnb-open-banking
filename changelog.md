@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.2.0...v2.2.1) (2019-10-11)
+
+
+### Bug Fixes
+
+* Add support for tsx files in jest configs ([8619617](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/8619617))
+
 ## [2.2.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.1.4...v2.2.0) (2019-10-02)
 
 
