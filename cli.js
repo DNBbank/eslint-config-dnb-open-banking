@@ -8,6 +8,7 @@ setup({
   packageInfo,
   skipDetectedPrompts: true,
   prompts: [
+    { type: 'confirm', name: 'node', message: 'Use Node?' },
     { type: 'confirm', name: 'jest', message: 'Use jest?' },
     { type: 'confirm', name: 'react', message: 'Use react?' },
     { type: 'confirm', name: 'vue', message: 'Use vue?' },
@@ -18,8 +19,8 @@ setup({
     },
   ],
   createEslintConfig: (config) => {
-    console.log(config);
     const eslintConfig = { extends: ['dnb-open-banking'] };
+    const env = {};
     if (config.babel) {
       eslintConfig.parser = 'babel-eslint';
     }
@@ -42,6 +43,13 @@ setup({
     }
     if (config.react) {
       eslintConfig.extends.push('dnb-open-banking/configs/react');
+    }
+    if (config.node) {
+      eslintConfig.extends.push('dnb-open-banking/configs/node');
+      env.node = true;
+    }
+    if (Object.keys(env).length > 0) {
+      eslintConfig.env = env;
     }
     return eslintConfig;
   },
@@ -72,6 +80,9 @@ setup({
     if (config.react) {
       dependencies.push('eslint-plugin-react');
       dependencies.push('eslint-plugin-react-hooks');
+    }
+    if (config.node) {
+      dependencies.push('eslint-plugin-node');
     }
     return dependencies;
   },
