@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.3.0...v2.4.0) (2019-11-11)
+
+
+### Features
+
+* Add eslint-plugin-node in separate node config ([292a80c](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/292a80c3bfe88dd4c8db6199f5474b3ff659e2a5))
+
 ## [2.3.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.2.2...v2.3.0) (2019-11-11)
 
 
