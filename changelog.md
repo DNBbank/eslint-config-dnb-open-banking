@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.1](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.4.0...v2.4.1) (2019-11-11)
+
+
+### Bug Fixes
+
+* Disable node/no-unsupported-features/es-syntax ([e2af4e0](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/e2af4e09bbcfa11eeb958add93c31de2138afe3e))
+
 ## [2.4.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.3.0...v2.4.0) (2019-11-11)
 
 
