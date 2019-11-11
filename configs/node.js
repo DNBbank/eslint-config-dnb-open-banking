@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['plugin:node/recommended'],
-  plugins: ['node'],
+  extends: ['plugin:node/recommended', 'plugin:security/recommended'],
+  plugins: ['node', 'security'],
   env: {
     node: true,
   },

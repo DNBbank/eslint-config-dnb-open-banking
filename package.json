@@ -30,6 +30,7 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0",
+    "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-unicorn": "^12.1.0",
     "eslint-plugin-vue": "^6.0.0",
     "eslint-plugin-vue-a11y": "^0.0.31",
