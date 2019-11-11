@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.4.4...v2.5.0) (2019-11-11)
+
+
+### Features
+
+* Add autofixable import sorting ([285443e](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/285443ed9ba5c3603d6d3ba832971fc1c54fdb00))
+* Add security rules to node config ([d8a516b](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/d8a516b09349044e1d4f97e1ff58907b72645822))
+
+
+### Bug Fixes
+
+* Add missing dependencies to setup script ([d7ad4b2](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/d7ad4b24e3b6ce50eb605fdc5610be46e189673b))
+
 ### [2.4.4](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.4.3...v2.4.4) (2019-11-11)
 
 
