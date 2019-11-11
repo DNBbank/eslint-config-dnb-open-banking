@@ -8,12 +8,20 @@ module.exports = {
     'plugin:promise/recommended',
     'prettier',
   ],
-  plugins: ['import', 'eslint-comments', 'unicorn', 'prettier'],
+  plugins: [
+    'import',
+    'eslint-comments',
+    'unicorn',
+    'simple-import-sort',
+    'prettier',
+  ],
   parserOptions: { ecmaVersion: 2018 },
   globals: {
     Promise: false,
   },
   rules: {
+    'simple-import-sort/sort': 2,
+    'import/order': 0,
     'prettier/prettier': [
       2,
       { singleQuote: true, trailingComma: 'all', arrowParens: 'always' },
