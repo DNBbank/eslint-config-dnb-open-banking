@@ -63,6 +63,7 @@ setup({
       'eslint-config-prettier',
       'eslint-plugin-prettier',
       'prettier',
+      'eslint-plugin-simple-import-sort',
     ];
     if (config.babel) {
       dependencies.push('babel-eslint');
@@ -83,6 +84,7 @@ setup({
     }
     if (config.node) {
       dependencies.push('eslint-plugin-node');
+      dependencies.push('eslint-plugin-security');
     }
     return dependencies;
   },
