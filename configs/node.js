@@ -14,5 +14,8 @@ module.exports = {
 
     // This is handled by the import plugin in the main config
     'node/no-missing-import': 0,
+
+    // This does not work with typescript when importing just types
+    'node/no-extraneous-import': 0,
   },
 };
