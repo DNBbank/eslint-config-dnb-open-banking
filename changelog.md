@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.2.2...v2.3.0) (2019-11-11)
+
+
+### Features
+
+* Upgrade prettier ([5855223](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/5855223e1597b5a3734f6ef10915f64f5d4fcb1a))
+
+
+### Bug Fixes
+
+* Upgrade vue plugint ([d122a6f](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/d122a6f61424d1be20fa28a839ddcf4add2e058d))
+
 ### [2.2.2](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.2.1...v2.2.2) (2019-11-06)
 
 
