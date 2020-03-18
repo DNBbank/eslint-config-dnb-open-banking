@@ -38,6 +38,7 @@ module.exports = {
     ],
 
     'eslint-comments/disable-enable-pair': [2, { allowWholeFile: true }],
+    'unicorn/consistent-function-scoping': 0,
     'unicorn/prevent-abbreviations': [
       2,
       {

@@ -7,6 +7,8 @@ module.exports = {
   rules: {
     'node/prefer-promises/fs': 2,
     'node/prefer-promises/dns': 2,
+    // We don't publish
+    'node/no-unpublished-require': 0,
 
     // We use either typescript or babel for most projects so
     // this can be activated per project if necessary
