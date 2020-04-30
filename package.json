@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dnb-open-banking",
-  "version": "2.5.2",
+  "version": "2.6.0",
   "description": "Common eslint configuration for the DNB Open Banking Team",
   "main": "./configs",
   "repository": "https://github.com/DNBbank/eslint-config-dnb-open-banking",

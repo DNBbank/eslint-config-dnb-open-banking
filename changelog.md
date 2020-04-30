@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.5.2...v2.6.0) (2020-04-30)
+
+
+### Features
+
+* add jest plugin ([db73e38](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/db73e38f7e59ea4cfedd7277fcfc0d0d793ac2b4))
+* add require-await plugin ([6fa7f01](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/6fa7f01320b7ca8fc54b6a1fec09f76ec7cc7266))
+
 ### [2.5.2](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.5.1...v2.5.2) (2020-03-18)
 
 ### [2.5.1](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.5.0...v2.5.1) (2020-03-17)
