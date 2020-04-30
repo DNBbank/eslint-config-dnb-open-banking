@@ -86,6 +86,9 @@ setup({
       dependencies.push('eslint-plugin-node');
       dependencies.push('eslint-plugin-security');
     }
+    if (config.jest) {
+      dependencies.push('eslint-plugin-jest');
+    }
     return dependencies;
   },
 }).catch((error) => {
