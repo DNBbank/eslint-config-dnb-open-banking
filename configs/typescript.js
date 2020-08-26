@@ -25,9 +25,9 @@ module.exports = {
       0,
       { allowExpressions: true },
     ],
-    '@typescript-eslint/camelcase': 0,
+    '@typescript-eslint/naming-convention': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/prefer-interface': 0,
-    '@typescript-eslint/ban-ts-ignore': 0,
+    '@typescript-eslint/ban-ts-comment': 0,
   },
 };
