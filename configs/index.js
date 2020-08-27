@@ -40,6 +40,10 @@ module.exports = {
 
     'eslint-comments/disable-enable-pair': [2, { allowWholeFile: true }],
     'unicorn/consistent-function-scoping': 0,
+    'unicorn/no-null': 0,
+    'unicorn/no-reduce': 0,
+    'unicorn/no-useless-undefined': 0,
+    'unicorn/no-fn-reference-in-iterator': 0,
     'unicorn/prevent-abbreviations': [
       2,
       {
