@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.6.3...v3.0.0) (2020-08-27)
+
+
+### Bug Fixes
+
+* Upgrade prettier ([2a7f22d](https://github.com/DNBbank/eslint-config-dnb-open-banking/commit/2a7f22dc8d8278ab322bd27094fd0c6f24c98741))
+
 ### [2.6.3](https://github.com/DNBbank/eslint-config-dnb-open-banking/compare/v2.6.2...v2.6.3) (2020-05-13)
 
 
