@@ -21,7 +21,7 @@ module.exports = {
   },
   rules: {
     'require-await': 2,
-    'simple-import-sort/sort': 2,
+    'simple-import-sort/import': 2,
     'import/order': 0,
     'prettier/prettier': [
       2,
